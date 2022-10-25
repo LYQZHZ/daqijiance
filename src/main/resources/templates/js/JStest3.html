@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="mydiv">1</div>
+<script>
+    let p_el = document.createElement("p");
+    p_el.innerHTML = "pppppppppppppppp"
+    let div_el = document.getElementById("mydiv");
+    div_el.appendChild(p_el)
+    div_el.onclick = () => {
+        alert("我是js中添加的函数")
+    }
+
+</script>
+</body>
+
+</html>

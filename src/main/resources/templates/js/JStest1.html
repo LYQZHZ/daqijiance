@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>标题1</h1>
+<div class="div1">111111111111111111111111</div>
+<div class="div1">111111111111111111111111</div>
+<h1>标题2</h1>
+<div class="div2">222222222222222222222222</div>
+<div class="div2">222222222222222222222222</div>
+<button onclick="print1()">显示h1</button>
+<button onclick="print2()">显示div</button>
+<button onclick="set1()">重设h1</button>
+<button onclick="set2()">重设div</button>
+<button onclick="printclass1()">输出div1</button>
+<button onclick="printclass2()">输出div2</button>
+<button onclick="setcolor1()">将div1设置为蓝色</button>
+<button onclick="setcolor2()">将div2设置为红色</button>
+<button onclick="setbgcolor1()">将div1背景设置为绿色</button>
+<button onclick="setbgcolor2()">将div2背景设置为黄色</button>
+<button onclick="setallh1()">所有h1字体蓝色，字号30px</button>
+<button onclick="setalldiv()">所有div字体灰色，字号18px</button>
+</body>
+<script>
+    var flag = 1;
+    var flag2 = 1;
+
+    function print1() {
+        let his = document.getElementsByTagName("h1");
+        for (hisKey in his) {
+            console.log(his[hisKey].innerHTML)
+        }
+    }
+
+    function print2() {
+        let his = document.getElementsByTagName("div");
+        for (hi of his) {
+            console.log(hi.innerHTML)
+        }
+    }
+
+    function set1() {
+        let his = document.getElementsByTagName("h1");
+        let s = 1;
+        for (hisKey in his) {
+            console.log(his[hisKey].innerHTML = "大标题" + (Number(hisKey) + 1));
+            console.log(typeof hisKey);
+            s += 1;
+        }
+    }
+
+    function set2() {
+        let his = document.getElementsByTagName("div");
+        let s = 1;
+        for (hisKey in his) {
+            console.log(his[hisKey].innerHTML = "段落" + s);
+            s += 1;
+        }
+    }
+
+    function printclass1() {
+        let his = document.getElementsByClassName("div1");
+        for (hi of his) {
+            console.log(hi.innerHTML);
+        }
+    }
+
+
+    let printclass2 = () => {
+        let his = document.getElementsByClassName("div2");
+        for (hi of his) {
+            console.log(hi.innerHTML);
+        }
+    }
+
+    let setcolor1 = () => {
+        let his = document.getElementsByClassName("div1");
+        if (flag == 1) {
+            for (hi of his) {
+                hi.style.backgroundColor = "pink";
+                hi.style.color = "white";
+            }
+            flag = 2;
+        } else {
+            for (hi of his) {
+                hi.style.backgroundColor = "orange";
+                hi.style.color = "pink";
+            }
+            flag = 1;
+        }
+
+    }
+
+    let setcolor2 = () => {
+        let his = document.getElementsByClassName("div2");
+        if (flag2 == 1) {
+            for (hi of his) {
+                hi.style.backgroundColor = "black";
+                hi.style.color = "white";
+            }
+            flag2 = 2;
+        } else {
+            for (hi of his) {
+                hi.style.backgroundColor = "white";
+                hi.style.color = "black";
+            }
+            flag2 = 1;
+        }
+    }
+
+    let setbgcolor1 = () => {
+        let his = document.getElementsByClassName("div1");
+        if (flag == 1) {
+            for (hi of his) {
+                hi.style.backgroundColor = "green";
+            }
+            flag = 2;
+        } else {
+            for (hi of his) {
+                hi.style.backgroundColor = "yellow";
+            }
+            flag = 1;
+        }
+
+    }
+
+    let setbgcolor2 = () => {
+        let his = document.getElementsByClassName("div2");
+        if (flag2 == 1) {
+            for (hi of his) {
+                hi.style.backgroundColor = "yellow";
+            }
+            flag2 = 2;
+        } else {
+            for (hi of his) {
+                hi.style.backgroundColor = "green";
+            }
+            flag2 = 1;
+        }
+    }
+
+    let setallh1 = () => {
+        let his = document.getElementsByTagName("h1");
+        for (hi of his) {
+            hi.style.color = "blue";
+            hi.style.fontSize = "30px";
+        }
+    }
+    let setalldiv = () => {
+        let his = document.getElementsByTagName("div");
+        for (hi of his) {
+            hi.style.color = "gray";
+            hi.style.fontSize = "18px";
+        }
+    }
+</script>
+</html>

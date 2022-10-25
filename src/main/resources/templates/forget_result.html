@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+
+    <title>注册结果</title>
+    <link href="/css/register_result.css" rel="stylesheet">
+</head>
+
+<body>
+<p>修改成功！3秒后将自动跳转...</p>
+<div class="loader"></div>
+<script>
+    window.onload = function () {
+        setTimeout(go, 3000)
+    }
+
+    function go() {
+        location.href = "/login";
+    }
+</script>
+</body>
+
+</html>

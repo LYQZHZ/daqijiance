@@ -1,0 +1,53 @@
+2022-08-25 15:16:51,154 [restartedMain] INFO  [com.fusheng.daqijiance.DaqijianceApplication] StartupInfoLogger.java:55 - Starting DaqijianceApplication using Java 1.8.0_282 on OnlyForYou with PID 2668 (D:\LoRa\daqijiance\target\classes started by LYQ in D:\LoRa\daqijiance)
+2022-08-25 15:16:51,158 [restartedMain] INFO  [com.fusheng.daqijiance.DaqijianceApplication] SpringApplication.java:634 - No active profile set, falling back to 1 default profile: "default"
+2022-08-25 15:16:51,263 [restartedMain] INFO  [o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor] DeferredLog.java:255 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-25 15:16:51,264 [restartedMain] INFO  [o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor] DeferredLog.java:255 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-25 15:16:53,430 [restartedMain] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 15:16:53,444 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 15:16:53,446 [restartedMain] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-08-25 15:16:53,447 [restartedMain] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-25 15:16:53,567 [restartedMain] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-08-25 15:16:53,567 [restartedMain] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:292 - Root WebApplicationContext: initialization completed in 2301 ms
+2022-08-25 15:16:54,726 [restartedMain] INFO  [o.s.b.d.autoconfigure.OptionalLiveReloadServer] OptionalLiveReloadServer.java:58 - LiveReload server is running on port 35729
+2022-08-25 15:16:54,758 [restartedMain] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 15:16:54,789 [restartedMain] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 15:16:54,816 [restartedMain] INFO  [com.fusheng.daqijiance.DaqijianceApplication] StartupInfoLogger.java:61 - Started DaqijianceApplication in 4.82 seconds (JVM running for 6.55)
+2022-08-25 15:16:54,820 [restartedMain] INFO  [c.fusheng.daqijiance.controller.SetUserTokenRunner] SetUserTokenRunner.java:31 - 执行SetUserTokenRunner
+2022-08-25 15:16:56,140 [Thread-11] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2022-08-25 15:16:56,707 [Thread-11] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2022-08-25 15:16:56,731 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-25 15:16:56,849 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-25 15:16:56,928 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:56,932 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-25 15:16:56,945 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNDE5MDE2LCJpYXQiOjE2NjE0MTE4MTZ9.bV4PlCsFLv17oeR8MUzbXlZA2tp9pl8-U3RbrTKth1w(String)
+2022-08-25 15:16:56,953 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:57,834 [restartedMain] INFO  [c.f.d.controller.GetUserTokenAndSetDataRunner] GetUserTokenAndSetDataRunner.java:38 - 执行GetUserTokenAndSetDataRunner
+2022-08-25 15:16:57,841 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-25 15:16:57,843 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-25 15:16:57,878 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-25 15:16:58,397 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,399 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 5283776(String)
+2022-08-25 15:16:58,459 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:58,460 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,461 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 5283777(String)
+2022-08-25 15:16:58,468 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:58,469 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,471 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 6.5(String), 5283769(String)
+2022-08-25 15:16:58,477 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:58,479 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,481 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 5283770(String)
+2022-08-25 15:16:58,488 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:58,489 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,490 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 5283771(String)
+2022-08-25 15:16:58,497 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:58,498 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,499 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 5283772(String)
+2022-08-25 15:16:58,505 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:58,506 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,507 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 5283773(String)
+2022-08-25 15:16:58,514 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:16:58,515 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==>  Preparing: UPDATE `daqijiancedb`.`turangshuju` SET `value` = ? WHERE `dataPointId` = ?;
+2022-08-25 15:16:58,521 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 5283774(String)
+2022-08-25 15:16:58,527 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.insertTuRangShuJu] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-25 15:17:01,470 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2022-08-25 15:17:01,482 [SpringApplicationShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fusheng.daqijiance.mapper.DQJCMapper">
+    <insert id="insertToken">
+        INSERT INTO `daqijiancedb`.`usertoken`
+            (`token`)
+        VALUES (#{token});
+    </insert>
+    <delete id="deleteAllUserToken">
+        DELETE
+        FROM `daqijiancedb`.`usertoken`;
+    </delete>
+    <select id="getUserToken" resultType="com.fusheng.daqijiance.model.UserToken">
+        SELECT *
+        FROM `daqijiancedb`.`usertoken` LIMIT 1;
+    </select>
+    <insert id="insertCo">
+        insert INTO `daqijiancedb`.`co`
+        (`value`,
+         `date`)
+        VALUES (#{value},
+                #{date});
+    </insert>
+    <insert id="insertCo2">
+        insert INTO `daqijiancedb`.`co2`
+        (`value`,
+         `date`)
+        VALUES (#{value},
+                #{date});
+    </insert>
+    <insert id="insertNh3">
+        insert INTO `daqijiancedb`.`nh3`
+        (`value`,
+         `date`)
+        VALUES (#{value},
+                #{date});
+    </insert>
+    <insert id="insertNo2">
+        insert INTO `daqijiancedb`.`no2`
+        (`value`,
+         `date`)
+        VALUES (#{value},
+                #{date});
+    </insert>
+    <insert id="insertTvoc">
+        insert INTO `daqijiancedb`.`tvoc`
+        (`value`,
+         `date`)
+        VALUES (#{value},
+                #{date});
+    </insert>
+    <insert id="insertUser">
+        INSERT INTO `daqijiancedb`.`user`
+        (`username`,
+         `userphone`,
+         `userpsw`,
+         `email`,
+         `salt`,
+         `name`,
+         `sex`,
+         `birthday`)
+        VALUES (#{username},
+                #{userphone},
+                #{userpsw},
+                #{email},
+                #{salt},
+                #{name},
+                #{sex},
+                #{birthday});
+    </insert>
+    <select id="getUserByUserName" resultType="com.fusheng.daqijiance.model.User">
+        SELECT *
+        FROM `daqijiancedb`.`user`
+        WHERE `username` = #{username};
+    </select>
+    <select id="getUserByName" resultType="com.fusheng.daqijiance.model.User">
+        SELECT *
+        FROM `daqijiancedb`.`user`
+        WHERE `name` = #{name};
+    </select>
+
+    <update id="updatePasswordByUsername">
+        UPDATE `daqijiancedb`.`user`
+        SET `userpsw` = #{userpsw}
+        WHERE `username` = #{username};
+    </update>
+
+
+</mapper>

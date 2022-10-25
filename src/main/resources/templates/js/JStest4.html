@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="id1" max="300" type="number">
+<button onclick="myFunction1()">OK1</button>
+<br>
+<input id="id2" min="100" type="number">
+<button onclick="myFunction2()">OK2</button>
+<br>
+<input id="id3" pattern="^1[3456789][0-9]{9}$" type="text">
+<button onclick="myFunction3()">OK3</button>
+
+<p id="demo"></p>
+
+<script>
+    function myFunction() {
+        const inpObj = document.getElementById("id1");
+        if (!inpObj.checkValidity()) {
+            // inpObj.setCustomValidity("验证不通过！")
+            document.getElementById("demo").style.color = "red"
+            document.getElementById("demo").innerHTML = inpObj.validationMessage;
+        } else {
+            // inpObj.setCustomValidity("验证通过！")
+            document.getElementById("demo").style.color = "green"
+            document.getElementById("demo").innerHTML = inpObj.validationMessage;
+        }
+    }
+
+    function myFunction1() {
+        const inpObj = document.getElementById("id1");
+        if (inpObj.validity.rangeOverflow) {
+            inpObj.setCustomValidity("值太大！")
+            document.getElementById("demo").style.color = "red"
+            document.getElementById("demo").innerHTML = inpObj.validationMessage;
+        }
+    }
+
+    function myFunction2() {
+        const inpObj = document.getElementById("id2");
+        if (inpObj.validity.rangeUnderflow) {
+            inpObj.setCustomValidity("值太小！")
+            document.getElementById("demo").style.color = "red"
+            document.getElementById("demo").innerHTML = inpObj.validationMessage;
+        }
+    }
+
+    function myFunction3() {
+        const inpObj = document.getElementById("id3");
+        if (inpObj.validity.patternMismatch) {
+            inpObj.setCustomValidity("格式不对！")
+            document.getElementById("demo").style.color = "red"
+            document.getElementById("demo").innerHTML = inpObj.validationMessage;
+        }
+    }
+</script>
+</body>
+</html>

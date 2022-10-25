@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #p1 {
+            font-size: 20px;
+        }
+
+        .myp1 {
+            color: red;
+        }
+
+        .myp2 {
+            background-color: #5d9cec;
+        }
+    </style>
+</head>
+<body>
+<p id="p1">111111</p>
+<p class="p2">22222</p>
+<input type="checkbox">
+<button onclick="myfun()">按钮1</button>
+<button onclick="myfun2()">按钮2</button>
+<button onclick="myfun3()">按钮3</button>
+<button onclick="myfun4()">按钮4</button>
+<button onclick="myfun5()">按钮5</button>
+<button onclick="myfun6()">按钮6</button>
+<button onclick="myfun7()">按钮7</button>
+<script>
+    function myfun() {
+        let div = document.getElementById("p1");
+        let div2 = document.getElementsByClassName("p2")[0];
+        let inp = document.getElementsByTagName("input")[0];
+        console.log(div.id);
+        console.log(div2.className);
+        console.log(inp.type);
+    }
+
+    function myfun2() {
+        let myp1 = document.getElementById("p1");
+        myp1.className = "myp1";
+    }
+
+    function myfun3() {
+        let myp1 = document.getElementsByClassName("p2")[0];
+        myp1.setAttribute("class", "myp2");
+    }
+
+    function myfun4() {
+        let myp1 = document.getElementById("p1");
+        myp1.className = "myp1";
+        myp1.classList.add("myp2");
+        alert(myp1.className);
+    }
+
+    function myfun5() {
+        let myp1 = document.getElementById("p1");
+        alert(myp1.className);
+        myp1.classList.remove("myp1");
+        alert(myp1.className);
+    }
+
+    function myfun6() {
+        let myp1 = document.getElementById("p1");
+        myp1.classList.remove("myp1");
+    }
+
+    function myfun7() {
+        let myp1 = document.getElementById("p1");
+        myp1.style.color = "yellow";
+        myp1.style.backgroundColor = "black";
+        myp1.style.fontSize = "50px";
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1><span id="header"></span><span>你好!</span></h1>
+请输入你的信息<input id="message" type="text">
+
+<button onclick="saved()">保存</button>
+<button onclick="quary()">读取</button>
+<button onclick="removed()">删除</button>
+<button onclick="removeAll()">删除全部</button>
+<p id="content"></p>
+<p id="content2"></p>
+<script>
+    localStorage.setItem("mydata", "我的数据");
+    let md = window.localStorage.getItem("mydata");
+    document.getElementById("content2").innerHTML = md;
+    let username = window.localStorage.getItem("message")
+    if (username) {
+        document.getElementById("header").innerHTML = username + ":";
+    }
+
+    function saved() {
+        let data = document.getElementById("message").value;
+        window.localStorage.setItem("message", data);
+    }
+
+    function quary() {
+        let q = window.localStorage.getItem("message");
+        document.getElementById("content").innerHTML = q;
+        alert(q);
+    }
+
+    function removed() {
+        window.localStorage.removeItem("message");
+        let q = window.localStorage.getItem("message");
+        document.getElementById("content").innerHTML = q;
+    }
+
+    function removeAll() {
+        window.localStorage.clear();
+        let q = window.localStorage.getItem("mydata");
+        document.getElementById("content2").innerHTML = q;
+    }
+</script>
+</body>
+
+</html>

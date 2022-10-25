@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="saved()">保存</button>
+<button onclick="quary()">读取</button>
+<script>
+
+
+    function saved() {
+        let stu = {
+            name: "张大彪",
+            sex: "女",
+            age: 23
+        }
+        console.log(stu);
+        let strstu = JSON.stringify(stu);
+        window.localStorage.setItem("stu", strstu);
+        console.log(strstu);
+    }
+
+    function quary() {
+        let q = window.localStorage.getItem("stu");
+        console.log(q);
+        q = JSON.parse(q)
+        console.log(q);
+    }
+
+
+</script>
+</body>
+</html>

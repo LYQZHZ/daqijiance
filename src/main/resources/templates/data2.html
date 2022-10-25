@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+
+    <title>邢台学院-土壤监测系统</title>
+    <!-- 引入字体图标 -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            /* 100%窗口高度 */
+            height: 100vh;
+            /* 弹性布局 水平+垂直居中 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* 径向渐变背景 */
+            /*background: radial-gradient(circle at top center, #007bff, #2c3641);*/
+            background-image: url(/img/wallhaven-e7p2pk_3840x2160.png);
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .container {
+            /* 弹性布局 默认水平排列 */
+            display: flex;
+            width: 90vw;
+            max-width: 900px;
+            height: 400px;
+            /* 溢出隐藏 */
+            overflow: hidden;
+        }
+
+        .item {
+            /* 相对定位 */
+            position: relative;
+            width: 60px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 30px;
+            /* 保持原有尺寸比例，裁切长边 */
+            background-size: cover;
+            /* 定位背景图像为正中间 */
+            background-position: center;
+            /* 过渡效果：时长 贝塞尔曲线 */
+            transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+            overflow: hidden;
+        }
+
+        .item .shadow {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+        }
+
+        .item .content {
+            display: flex;
+            position: absolute;
+            left: 10px;
+            right: 0;
+            bottom: 10px;
+            height: 40px;
+            transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+        }
+
+        .item .content .icon {
+            min-width: 40px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        .item:nth-child(1) .fa {
+            color: #fc6e51;
+        }
+
+        .item:nth-child(2) .fa {
+            color: #ffce54;
+        }
+
+        .item:nth-child(3) .fa {
+            color: #2ecc71;
+        }
+
+        .item:nth-child(4) .fa {
+            color: #5d9cec;
+        }
+
+        .item:nth-child(5) .fa {
+            color: #ac92ec;
+        }
+
+        .item .content .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 10px;
+            color: #fff;
+            width: 100%;
+        }
+
+        .item .content .text div {
+            /* 超出显示省略号（需要设置width） */
+            width: calc(100% - 70px);
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.5s ease-out;
+        }
+
+        .item .content .text .tit {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .item .content .text .sub {
+            /* 设置过渡效果延迟时间 */
+            transition-delay: 0.1s;
+        }
+
+        /* 选中态样式 */
+        .item.active {
+            flex: 1;
+            margin: 0;
+            border-radius: 40px;
+        }
+
+        .item.active .shadow {
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.35) 65%, transparent);
+        }
+
+        .item.active .content {
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .item.active .content .text div {
+            opacity: 1;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+        .xtxy {
+            position: relative;
+            margin: auto;
+            font-size: 2rem;
+            word-spacing: 0.2em;
+            display: inline-block;
+            line-height: 1;
+            white-space: nowrap;
+            color: transparent;
+            background-color: black;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .xtxy::after {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 500%;
+            height: 100%;
+            z-index: 5;
+            background-image: linear-gradient(120deg, transparent 0%, transparent 6rem, white 11rem, transparent 11.15rem, transparent 15rem, rgba(255, 255, 255, 0.3) 20rem, transparent 25rem, transparent 27rem, rgba(255, 255, 255, 0.6) 32rem, white 33rem, rgba(255, 255, 255, 0.3) 33.15rem, transparent 38rem, transparent 40rem, rgba(255, 255, 255, 0.3) 45rem, transparent 50rem, transparent 100%);
+            background-size: 150% 100%;
+            background-repeat: no-repeat;
+            animation: shine 3s infinite linear;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes shine {
+            0% {
+                background-position: 50% 0;
+            }
+            100% {
+                background-position: -190% 0;
+            }
+        }
+
+        .firsttext {
+            position: absolute;
+            left: 26px;
+            bottom: 26px;
+            z-index: 20;
+        }
+    </style>
+</head>
+
+<body>
+<div th:text="欢迎你"></div>
+<div class="container">
+    <div class="item active" style="background-image: url(/img/wallhaven-k7v83q_3840x2160.png);">
+
+        <div class="shadow"></div>
+        <div class="content">
+            <span class="icon" style="font-weight:bold ;font-size: 10px">
+            土壤<br>湿度
+        </span>
+            <div class="text">
+                <div class="tit" th:text="土壤湿度">这是标题</div>
+
+                <div class="sub" th:text="${value}">这是一段描述</div>
+            </div>
+        </div>
+    </div>
+    <div class="item" style="background-image: url(/img/wallhaven-l3oezl_3840x2160.png);">
+        <div class="shadow"></div>
+        <div class="content">
+            <span class="icon" style="font-weight:bold ;font-size: 10px">
+            土壤<br>温度
+        </span>
+            <div class="text">
+                <div class="tit">这是标题</div>
+                <div class="sub">这是一段描述</div>
+            </div>
+        </div>
+    </div>
+    <div class="item" style="background-image: url(/img/wallhaven-l3prel_3840x2160.png);">
+        <div class="shadow"></div>
+        <div class="content">
+            <span class="icon" style="font-weight:bold ;font-size: 10px">
+            &ensp;土壤<br>电导率
+        </span>
+            <div class="text">
+                <div class="tit">这是标题</div>
+                <div class="sub">这是一段描述</div>
+            </div>
+        </div>
+    </div>
+    <div class="item" style="background-image: url(/img/wallhaven-rd19dw_3840x2160.png);">
+        <div class="shadow"></div>
+        <div class="content">
+            <span class="icon" style="font-weight:bold ;font-size: 10px">
+            &ensp;土壤<br>氮浓度
+        </span>
+            <div class="text">
+                <div class="tit">这是标题</div>
+                <div class="sub">这是一段描述</div>
+            </div>
+        </div>
+    </div>
+    <div class="item" style="background-image: url(/img/wallhaven-dpqr7g_3840x2160.png);">
+        <div class="shadow"></div>
+        <div class="content">
+            <span class="icon" style="font-weight:bold ;font-size: 10px">
+            &ensp;土壤<br>磷浓度
+        </span>
+            <div class="text">
+                <div class="tit">这是标题</div>
+                <div class="sub">这是一段描述</div>
+            </div>
+        </div>
+    </div>
+    <div style="font-size: 20px; position: fixed;  bottom: 0;  margin-left: 360px;  border: 2px solid black;background-color: white;border-radius: 50px 50px 0px 0px">
+        <span>·</span><span class="xtxy" data-text="邢台学院">邢台学院</span><span>·</span>
+    </div>
+
+</div>
+<script>
+    let items = document.querySelectorAll('.item');
+
+    // 设置选中态样式
+    function setActive() {
+        // 遍历所有.item元素，移出active样式
+        items.forEach((item) => {
+            item.classList.remove('active');
+        })
+        // 为当前选中项添加active样式
+        this.classList.add('active');
+    }
+
+    // 遍历所有.item元素，分别为其设置点击事件
+    items.forEach((item) => {
+        item.addEventListener('click', setActive);
+    })
+</script>
+</body>
+
+</html>

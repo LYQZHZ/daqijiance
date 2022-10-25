@@ -1,0 +1,997 @@
+2022-08-29 00:00:32,891 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:00:32,922 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:00:32,924 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:00:33,202 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:00:33,202 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:00:33 上午(String)
+2022-08-29 00:00:33,214 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:00:33,214 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:00:33,214 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:00:33 上午(String)
+2022-08-29 00:00:33,216 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:00:33,217 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:00:33,217 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:00:33 上午(String)
+2022-08-29 00:00:33,219 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:00:33,219 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:00:33,219 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:00:33 上午(String)
+2022-08-29 00:00:33,222 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:00:33,222 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:00:33,222 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:00:33 上午(String)
+2022-08-29 00:00:33,225 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:01:33,232 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:01:33,232 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:01:33,233 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:01:33,564 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:01:33,564 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:01:33 上午(String)
+2022-08-29 00:01:33,577 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:01:33,577 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:01:33,577 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:01:33 上午(String)
+2022-08-29 00:01:33,581 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:01:33,581 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:01:33,581 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:01:33 上午(String)
+2022-08-29 00:01:33,583 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:01:33,583 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:01:33,585 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:01:33 上午(String)
+2022-08-29 00:01:33,587 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:01:33,587 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:01:33,587 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:01:33 上午(String)
+2022-08-29 00:01:33,589 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:02:33,602 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:02:33,602 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:02:33,604 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:02:33,815 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:02:33,816 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:02:33 上午(String)
+2022-08-29 00:02:33,818 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:02:33,819 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:02:33,819 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:02:33 上午(String)
+2022-08-29 00:02:33,821 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:02:33,822 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:02:33,822 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:02:33 上午(String)
+2022-08-29 00:02:33,824 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:02:33,825 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:02:33,825 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:02:33 上午(String)
+2022-08-29 00:02:33,828 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:02:33,828 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:02:33,828 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:02:33 上午(String)
+2022-08-29 00:02:33,832 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:03:33,845 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:03:33,845 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:03:33,846 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:03:34,091 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:03:34,092 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:03:34 上午(String)
+2022-08-29 00:03:34,104 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:03:34,104 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:03:34,104 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:03:34 上午(String)
+2022-08-29 00:03:34,108 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:03:34,108 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:03:34,108 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:03:34 上午(String)
+2022-08-29 00:03:34,110 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:03:34,110 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:03:34,110 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:03:34 上午(String)
+2022-08-29 00:03:34,113 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:03:34,113 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:03:34,113 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:03:34 上午(String)
+2022-08-29 00:03:34,115 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:04:34,121 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:04:34,121 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:04:34,122 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:04:34,356 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:04:34,357 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:04:34 上午(String)
+2022-08-29 00:04:34,370 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:04:34,370 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:04:34,370 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:04:34 上午(String)
+2022-08-29 00:04:34,373 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:04:34,373 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:04:34,374 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:04:34 上午(String)
+2022-08-29 00:04:34,377 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:04:34,377 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:04:34,377 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:04:34 上午(String)
+2022-08-29 00:04:34,380 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:04:34,380 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:04:34,380 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:04:34 上午(String)
+2022-08-29 00:04:34,382 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:05:34,397 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:05:34,397 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:05:34,399 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:05:34,693 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:05:34,694 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:05:34 上午(String)
+2022-08-29 00:05:34,707 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:05:34,707 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:05:34,707 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:05:34 上午(String)
+2022-08-29 00:05:34,710 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:05:34,710 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:05:34,710 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:05:34 上午(String)
+2022-08-29 00:05:34,712 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:05:34,712 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:05:34,712 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:05:34 上午(String)
+2022-08-29 00:05:34,715 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:05:34,715 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:05:34,715 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:05:34 上午(String)
+2022-08-29 00:05:34,718 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:06:34,732 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:06:34,733 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:06:34,734 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:06:34,959 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:06:34,960 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:06:34 上午(String)
+2022-08-29 00:06:34,974 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:06:34,974 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:06:34,974 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:06:34 上午(String)
+2022-08-29 00:06:34,977 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:06:34,978 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:06:34,978 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:06:34 上午(String)
+2022-08-29 00:06:34,980 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:06:34,981 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:06:34,981 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:06:34 上午(String)
+2022-08-29 00:06:34,983 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:06:34,983 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:06:34,983 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:06:34 上午(String)
+2022-08-29 00:06:34,985 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:07:34,991 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:07:34,991 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:07:34,992 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:07:35,203 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:07:35,203 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:07:35 上午(String)
+2022-08-29 00:07:35,215 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:07:35,215 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:07:35,215 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:07:35 上午(String)
+2022-08-29 00:07:35,218 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:07:35,218 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:07:35,218 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:07:35 上午(String)
+2022-08-29 00:07:35,221 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:07:35,221 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:07:35,221 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:07:35 上午(String)
+2022-08-29 00:07:35,223 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:07:35,223 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:07:35,223 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:07:35 上午(String)
+2022-08-29 00:07:35,225 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:08:35,239 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:08:35,239 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:08:35,240 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:08:35,467 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:08:35,467 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:08:35 上午(String)
+2022-08-29 00:08:35,480 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:08:35,480 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:08:35,480 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:08:35 上午(String)
+2022-08-29 00:08:35,483 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:08:35,483 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:08:35,483 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:08:35 上午(String)
+2022-08-29 00:08:35,486 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:08:35,486 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:08:35,486 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:08:35 上午(String)
+2022-08-29 00:08:35,488 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:08:35,488 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:08:35,488 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:08:35 上午(String)
+2022-08-29 00:08:35,491 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:09:35,505 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:09:35,505 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:09:35,506 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:09:35,772 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:09:35,772 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:09:35 上午(String)
+2022-08-29 00:09:35,785 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:09:35,786 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:09:35,786 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:09:35 上午(String)
+2022-08-29 00:09:35,789 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:09:35,789 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:09:35,789 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:09:35 上午(String)
+2022-08-29 00:09:35,791 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:09:35,791 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:09:35,791 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:09:35 上午(String)
+2022-08-29 00:09:35,794 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:09:35,794 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:09:35,794 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:09:35 上午(String)
+2022-08-29 00:09:35,796 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:10:35,808 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:10:35,809 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:10:35,810 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:10:36,017 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:10:36,017 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:10:36 上午(String)
+2022-08-29 00:10:36,029 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:10:36,029 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:10:36,029 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:10:36 上午(String)
+2022-08-29 00:10:36,032 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:10:36,032 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:10:36,032 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:10:36 上午(String)
+2022-08-29 00:10:36,035 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:10:36,035 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:10:36,035 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:10:36 上午(String)
+2022-08-29 00:10:36,037 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:10:36,037 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:10:36,037 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:10:36 上午(String)
+2022-08-29 00:10:36,039 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:11:36,048 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:11:36,049 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:11:36,050 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:11:36,243 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:11:36,243 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:11:36 上午(String)
+2022-08-29 00:11:36,246 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:11:36,246 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:11:36,246 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:11:36 上午(String)
+2022-08-29 00:11:36,249 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:11:36,249 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:11:36,249 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:11:36 上午(String)
+2022-08-29 00:11:36,252 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:11:36,252 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:11:36,252 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:11:36 上午(String)
+2022-08-29 00:11:36,255 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:11:36,255 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:11:36,255 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:11:36 上午(String)
+2022-08-29 00:11:36,257 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:12:36,272 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:12:36,272 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:12:36,273 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:12:36,529 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:12:36,530 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:12:36 上午(String)
+2022-08-29 00:12:36,543 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:12:36,543 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:12:36,543 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:12:36 上午(String)
+2022-08-29 00:12:36,546 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:12:36,546 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:12:36,546 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:12:36 上午(String)
+2022-08-29 00:12:36,549 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:12:36,549 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:12:36,549 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:12:36 上午(String)
+2022-08-29 00:12:36,551 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:12:36,552 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:12:36,552 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:12:36 上午(String)
+2022-08-29 00:12:36,554 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:13:36,561 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:13:36,561 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:13:36,562 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:13:36,854 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:13:36,855 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:13:36 上午(String)
+2022-08-29 00:13:36,858 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:13:36,858 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:13:36,858 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:13:36 上午(String)
+2022-08-29 00:13:36,861 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:13:36,861 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:13:36,861 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:13:36 上午(String)
+2022-08-29 00:13:36,863 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:13:36,863 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:13:36,864 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:13:36 上午(String)
+2022-08-29 00:13:36,866 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:13:36,867 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:13:36,867 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:13:36 上午(String)
+2022-08-29 00:13:36,869 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:14:36,876 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:14:36,876 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:14:36,877 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:14:37,113 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:14:37,114 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:14:37 上午(String)
+2022-08-29 00:14:37,127 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:14:37,127 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:14:37,127 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:14:37 上午(String)
+2022-08-29 00:14:37,130 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:14:37,130 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:14:37,130 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:14:37 上午(String)
+2022-08-29 00:14:37,133 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:14:37,133 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:14:37,133 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:14:37 上午(String)
+2022-08-29 00:14:37,135 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:14:37,135 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:14:37,135 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:14:37 上午(String)
+2022-08-29 00:14:37,139 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:15:37,141 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:15:37,142 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:15:37,143 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:15:37,354 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:15:37,355 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:15:37 上午(String)
+2022-08-29 00:15:37,368 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:15:37,368 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:15:37,368 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:15:37 上午(String)
+2022-08-29 00:15:37,370 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:15:37,370 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:15:37,370 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:15:37 上午(String)
+2022-08-29 00:15:37,372 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:15:37,372 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:15:37,373 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:15:37 上午(String)
+2022-08-29 00:15:37,375 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:15:37,375 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:15:37,375 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:15:37 上午(String)
+2022-08-29 00:15:37,378 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:16:37,391 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:16:37,392 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:16:37,393 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:16:37,612 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:16:37,612 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:16:37 上午(String)
+2022-08-29 00:16:37,625 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:16:37,625 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:16:37,625 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:16:37 上午(String)
+2022-08-29 00:16:37,628 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:16:37,628 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:16:37,628 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:16:37 上午(String)
+2022-08-29 00:16:37,630 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:16:37,630 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:16:37,630 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:16:37 上午(String)
+2022-08-29 00:16:37,633 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:16:37,633 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:16:37,633 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:16:37 上午(String)
+2022-08-29 00:16:37,635 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:17:37,638 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:17:37,638 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:17:37,639 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:17:37,918 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:17:37,918 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:17:37 上午(String)
+2022-08-29 00:17:37,921 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:17:37,921 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:17:37,921 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:17:37 上午(String)
+2022-08-29 00:17:37,924 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:17:37,924 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:17:37,924 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:17:37 上午(String)
+2022-08-29 00:17:37,926 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:17:37,927 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:17:37,927 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:17:37 上午(String)
+2022-08-29 00:17:37,929 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:17:37,929 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:17:37,929 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:17:37 上午(String)
+2022-08-29 00:17:37,932 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:18:37,944 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:18:37,944 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:18:37,945 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:18:38,148 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:18:38,148 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:18:38 上午(String)
+2022-08-29 00:18:38,152 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:18:38,152 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:18:38,152 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:18:38 上午(String)
+2022-08-29 00:18:38,154 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:18:38,154 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:18:38,154 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:18:38 上午(String)
+2022-08-29 00:18:38,157 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:18:38,157 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:18:38,157 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:18:38 上午(String)
+2022-08-29 00:18:38,159 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:18:38,159 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:18:38,160 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:18:38 上午(String)
+2022-08-29 00:18:38,162 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:19:38,163 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:19:38,164 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:19:38,165 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:19:38,385 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:19:38,385 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:19:38 上午(String)
+2022-08-29 00:19:38,388 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:19:38,388 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:19:38,388 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:19:38 上午(String)
+2022-08-29 00:19:38,391 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:19:38,391 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:19:38,391 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:19:38 上午(String)
+2022-08-29 00:19:38,393 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:19:38,393 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:19:38,393 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:19:38 上午(String)
+2022-08-29 00:19:38,395 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:19:38,396 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:19:38,396 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:19:38 上午(String)
+2022-08-29 00:19:38,398 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:20:38,408 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:20:38,408 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:20:38,409 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:20:38,610 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:20:38,611 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:20:38 上午(String)
+2022-08-29 00:20:38,623 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:20:38,623 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:20:38,624 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:20:38 上午(String)
+2022-08-29 00:20:38,627 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:20:38,627 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:20:38,627 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:20:38 上午(String)
+2022-08-29 00:20:38,630 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:20:38,630 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:20:38,630 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:20:38 上午(String)
+2022-08-29 00:20:38,632 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:20:38,632 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:20:38,632 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:20:38 上午(String)
+2022-08-29 00:20:38,635 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:21:38,643 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:21:38,643 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:21:38,644 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:21:38,987 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:21:38,988 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:21:38 上午(String)
+2022-08-29 00:21:39,001 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:21:39,001 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:21:39,002 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:21:39 上午(String)
+2022-08-29 00:21:39,004 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:21:39,004 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:21:39,004 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:21:39 上午(String)
+2022-08-29 00:21:39,006 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:21:39,006 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:21:39,006 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:21:39 上午(String)
+2022-08-29 00:21:39,009 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:21:39,009 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:21:39,009 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:21:39 上午(String)
+2022-08-29 00:21:39,011 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:22:39,025 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:22:39,025 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:22:39,026 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:22:39,239 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:22:39,240 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:22:39 上午(String)
+2022-08-29 00:22:39,253 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:22:39,253 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:22:39,253 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:22:39 上午(String)
+2022-08-29 00:22:39,256 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:22:39,256 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:22:39,256 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:22:39 上午(String)
+2022-08-29 00:22:39,259 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:22:39,259 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:22:39,259 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:22:39 上午(String)
+2022-08-29 00:22:39,261 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:22:39,261 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:22:39,261 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:22:39 上午(String)
+2022-08-29 00:22:39,264 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:23:39,277 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:23:39,277 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:23:39,278 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:23:39,484 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:23:39,485 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:23:39 上午(String)
+2022-08-29 00:23:39,488 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:23:39,488 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:23:39,488 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:23:39 上午(String)
+2022-08-29 00:23:39,491 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:23:39,491 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:23:39,491 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:23:39 上午(String)
+2022-08-29 00:23:39,493 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:23:39,494 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:23:39,494 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:23:39 上午(String)
+2022-08-29 00:23:39,497 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:23:39,497 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:23:39,498 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:23:39 上午(String)
+2022-08-29 00:23:39,501 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:24:39,504 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:24:39,505 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:24:39,506 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:24:39,694 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:24:39,694 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:24:39 上午(String)
+2022-08-29 00:24:39,708 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:24:39,708 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:24:39,708 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:24:39 上午(String)
+2022-08-29 00:24:39,712 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:24:39,713 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:24:39,713 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:24:39 上午(String)
+2022-08-29 00:24:39,716 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:24:39,716 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:24:39,716 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:24:39 上午(String)
+2022-08-29 00:24:39,719 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:24:39,719 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:24:39,719 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:24:39 上午(String)
+2022-08-29 00:24:39,721 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:25:39,723 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:25:39,723 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:25:39,724 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:25:39,944 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:25:39,944 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:25:39 上午(String)
+2022-08-29 00:25:39,957 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:25:39,957 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:25:39,958 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:25:39 上午(String)
+2022-08-29 00:25:39,960 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:25:39,960 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:25:39,960 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:25:39 上午(String)
+2022-08-29 00:25:39,963 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:25:39,963 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:25:39,963 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:25:39 上午(String)
+2022-08-29 00:25:39,966 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:25:39,967 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:25:39,967 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:25:39 上午(String)
+2022-08-29 00:25:39,969 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:26:39,977 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:26:39,977 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:26:39,978 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:26:40,212 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:26:40,212 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:26:40 上午(String)
+2022-08-29 00:26:40,224 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:26:40,224 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:26:40,224 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:26:40 上午(String)
+2022-08-29 00:26:40,226 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:26:40,226 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:26:40,226 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:26:40 上午(String)
+2022-08-29 00:26:40,229 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:26:40,229 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:26:40,229 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:26:40 上午(String)
+2022-08-29 00:26:40,232 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:26:40,232 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:26:40,232 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:26:40 上午(String)
+2022-08-29 00:26:40,234 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:27:40,241 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:27:40,242 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:27:40,243 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:27:40,460 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:27:40,461 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:27:40 上午(String)
+2022-08-29 00:27:40,473 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:27:40,474 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:27:40,474 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:27:40 上午(String)
+2022-08-29 00:27:40,477 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:27:40,477 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:27:40,477 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:27:40 上午(String)
+2022-08-29 00:27:40,480 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:27:40,480 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:27:40,481 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:27:40 上午(String)
+2022-08-29 00:27:40,483 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:27:40,483 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:27:40,483 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:27:40 上午(String)
+2022-08-29 00:27:40,486 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:28:40,498 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:28:40,498 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:28:40,500 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:28:40,763 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:28:40,763 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:28:40 上午(String)
+2022-08-29 00:28:40,766 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:28:40,766 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:28:40,766 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:28:40 上午(String)
+2022-08-29 00:28:40,769 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:28:40,769 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:28:40,769 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:28:40 上午(String)
+2022-08-29 00:28:40,772 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:28:40,772 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:28:40,772 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:28:40 上午(String)
+2022-08-29 00:28:40,775 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:28:40,775 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:28:40,775 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:28:40 上午(String)
+2022-08-29 00:28:40,778 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:29:40,790 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:29:40,790 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:29:40,791 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:29:40,989 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:29:40,989 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:29:40 上午(String)
+2022-08-29 00:29:41,001 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:29:41,001 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:29:41,001 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:29:41 上午(String)
+2022-08-29 00:29:41,010 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:29:41,010 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:29:41,010 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:29:41 上午(String)
+2022-08-29 00:29:41,012 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:29:41,013 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:29:41,013 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:29:41 上午(String)
+2022-08-29 00:29:41,016 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:29:41,016 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:29:41,016 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:29:41 上午(String)
+2022-08-29 00:29:41,018 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:30:41,032 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:30:41,033 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:30:41,034 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:30:41,294 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:30:41,295 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:30:41 上午(String)
+2022-08-29 00:30:41,308 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:30:41,308 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:30:41,308 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:30:41 上午(String)
+2022-08-29 00:30:41,312 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:30:41,312 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:30:41,312 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:30:41 上午(String)
+2022-08-29 00:30:41,315 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:30:41,315 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:30:41,316 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:30:41 上午(String)
+2022-08-29 00:30:41,318 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:30:41,318 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:30:41,318 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:30:41 上午(String)
+2022-08-29 00:30:41,321 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:31:41,332 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:31:41,332 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:31:41,333 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:31:41,573 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:31:41,574 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:31:41 上午(String)
+2022-08-29 00:31:41,588 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:31:41,588 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:31:41,588 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:31:41 上午(String)
+2022-08-29 00:31:41,591 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:31:41,591 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:31:41,591 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:31:41 上午(String)
+2022-08-29 00:31:41,594 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:31:41,594 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:31:41,594 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:31:41 上午(String)
+2022-08-29 00:31:41,596 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:31:41,597 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:31:41,597 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:31:41 上午(String)
+2022-08-29 00:31:41,600 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:32:41,603 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:32:41,604 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:32:41,605 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:32:41,812 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:32:41,812 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:32:41 上午(String)
+2022-08-29 00:32:41,815 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:32:41,815 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:32:41,815 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:32:41 上午(String)
+2022-08-29 00:32:41,819 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:32:41,819 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:32:41,819 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:32:41 上午(String)
+2022-08-29 00:32:41,823 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:32:41,823 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:32:41,823 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:32:41 上午(String)
+2022-08-29 00:32:41,826 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:32:41,826 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:32:41,826 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:32:41 上午(String)
+2022-08-29 00:32:41,828 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:33:41,839 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:33:41,839 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:33:41,840 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:33:42,057 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:33:42,057 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:33:42 上午(String)
+2022-08-29 00:33:42,069 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:33:42,069 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:33:42,069 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:33:42 上午(String)
+2022-08-29 00:33:42,072 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:33:42,072 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:33:42,072 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:33:42 上午(String)
+2022-08-29 00:33:42,075 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:33:42,075 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:33:42,075 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:33:42 上午(String)
+2022-08-29 00:33:42,077 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:33:42,077 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:33:42,077 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:33:42 上午(String)
+2022-08-29 00:33:42,080 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:34:42,095 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:34:42,096 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:34:42,096 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:34:42,326 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:34:42,326 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:34:42 上午(String)
+2022-08-29 00:34:42,342 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:34:42,342 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:34:42,342 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:34:42 上午(String)
+2022-08-29 00:34:42,345 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:34:42,345 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:34:42,345 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:34:42 上午(String)
+2022-08-29 00:34:42,347 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:34:42,347 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:34:42,347 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:34:42 上午(String)
+2022-08-29 00:34:42,350 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:34:42,350 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:34:42,350 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:34:42 上午(String)
+2022-08-29 00:34:42,352 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:35:42,361 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:35:42,361 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:35:42,363 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:35:42,581 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:35:42,582 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:35:42 上午(String)
+2022-08-29 00:35:42,595 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:35:42,595 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:35:42,595 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:35:42 上午(String)
+2022-08-29 00:35:42,598 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:35:42,598 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:35:42,598 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:35:42 上午(String)
+2022-08-29 00:35:42,601 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:35:42,601 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:35:42,601 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:35:42 上午(String)
+2022-08-29 00:35:42,604 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:35:42,604 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:35:42,604 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:35:42 上午(String)
+2022-08-29 00:35:42,606 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:36:42,616 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:36:42,617 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:36:42,617 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:36:42,867 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:36:42,867 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:36:42 上午(String)
+2022-08-29 00:36:42,879 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:36:42,880 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:36:42,880 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:36:42 上午(String)
+2022-08-29 00:36:42,882 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:36:42,882 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:36:42,882 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:36:42 上午(String)
+2022-08-29 00:36:42,885 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:36:42,885 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:36:42,885 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:36:42 上午(String)
+2022-08-29 00:36:42,888 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:36:42,888 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:36:42,889 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:36:42 上午(String)
+2022-08-29 00:36:42,891 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:37:42,899 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:37:42,899 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:37:42,900 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:37:43,157 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:37:43,157 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:37:43 上午(String)
+2022-08-29 00:37:43,160 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:37:43,160 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:37:43,160 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:37:43 上午(String)
+2022-08-29 00:37:43,164 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:37:43,164 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:37:43,164 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:37:43 上午(String)
+2022-08-29 00:37:43,167 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:37:43,167 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:37:43,167 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:37:43 上午(String)
+2022-08-29 00:37:43,170 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:37:43,170 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:37:43,170 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:37:43 上午(String)
+2022-08-29 00:37:43,172 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:38:43,186 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:38:43,187 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:38:43,188 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:38:43,397 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:38:43,398 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:38:43 上午(String)
+2022-08-29 00:38:43,411 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:38:43,411 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:38:43,411 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:38:43 上午(String)
+2022-08-29 00:38:43,414 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:38:43,414 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:38:43,414 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:38:43 上午(String)
+2022-08-29 00:38:43,416 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:38:43,416 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:38:43,416 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:38:43 上午(String)
+2022-08-29 00:38:43,419 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:38:43,419 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:38:43,419 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:38:43 上午(String)
+2022-08-29 00:38:43,422 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:39:43,434 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:39:43,434 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:39:43,435 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:39:43,669 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:39:43,670 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:39:43 上午(String)
+2022-08-29 00:39:43,672 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:39:43,672 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:39:43,672 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:39:43 上午(String)
+2022-08-29 00:39:43,675 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:39:43,675 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:39:43,675 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:39:43 上午(String)
+2022-08-29 00:39:43,677 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:39:43,677 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:39:43,678 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:39:43 上午(String)
+2022-08-29 00:39:43,681 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:39:43,681 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:39:43,681 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:39:43 上午(String)
+2022-08-29 00:39:43,683 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:40:43,691 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:40:43,691 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:40:43,692 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:40:43,909 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:40:43,909 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:40:43 上午(String)
+2022-08-29 00:40:43,921 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:40:43,922 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:40:43,922 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:40:43 上午(String)
+2022-08-29 00:40:43,925 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:40:43,925 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:40:43,925 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:40:43 上午(String)
+2022-08-29 00:40:43,928 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:40:43,928 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:40:43,928 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:40:43 上午(String)
+2022-08-29 00:40:43,930 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:40:43,930 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:40:43,930 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:40:43 上午(String)
+2022-08-29 00:40:43,932 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:41:43,938 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:41:43,938 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:41:43,939 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:41:44,143 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:41:44,144 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:41:44 上午(String)
+2022-08-29 00:41:44,157 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:41:44,158 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:41:44,158 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:41:44 上午(String)
+2022-08-29 00:41:44,160 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:41:44,160 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:41:44,160 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:41:44 上午(String)
+2022-08-29 00:41:44,163 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:41:44,163 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:41:44,163 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:41:44 上午(String)
+2022-08-29 00:41:44,166 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:41:44,166 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:41:44,166 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:41:44 上午(String)
+2022-08-29 00:41:44,169 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:42:00,815 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 00:42:00,816 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:42:00,820 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:42:00,820 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 00:42:00,821 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzEyMTIyLCJpYXQiOjE2NjE3MDQ5MjJ9._lU7iEHlMpchwKJUysTGtaWYDcUe9pehWjosXfkKI0s(String)
+2022-08-29 00:42:00,824 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:42:44,176 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:42:44,177 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:42:44,177 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:42:44,359 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:42:44,359 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:42:44 上午(String)
+2022-08-29 00:42:44,372 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:42:44,372 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:42:44,373 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:42:44 上午(String)
+2022-08-29 00:42:44,375 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:42:44,375 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:42:44,375 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:42:44 上午(String)
+2022-08-29 00:42:44,378 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:42:44,378 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:42:44,378 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:42:44 上午(String)
+2022-08-29 00:42:44,380 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:42:44,380 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:42:44,380 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:42:44 上午(String)
+2022-08-29 00:42:44,382 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:43:44,388 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:43:44,389 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:43:44,389 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:43:44,645 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:43:44,645 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:43:44 上午(String)
+2022-08-29 00:43:44,658 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:43:44,658 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:43:44,658 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:43:44 上午(String)
+2022-08-29 00:43:44,660 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:43:44,661 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:43:44,661 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:43:44 上午(String)
+2022-08-29 00:43:44,665 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:43:44,665 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:43:44,665 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:43:44 上午(String)
+2022-08-29 00:43:44,667 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:43:44,667 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:43:44,667 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:43:44 上午(String)
+2022-08-29 00:43:44,669 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:44:44,674 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:44:44,674 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:44:44,675 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:44:44,865 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:44:44,866 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:44:44 上午(String)
+2022-08-29 00:44:44,879 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:44:44,879 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:44:44,879 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:44:44 上午(String)
+2022-08-29 00:44:44,882 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:44:44,882 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:44:44,882 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:44:44 上午(String)
+2022-08-29 00:44:44,884 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:44:44,884 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:44:44,884 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:44:44 上午(String)
+2022-08-29 00:44:44,887 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:44:44,887 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:44:44,887 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:44:44 上午(String)
+2022-08-29 00:44:44,889 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:45:44,895 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:45:44,896 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:45:44,897 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:45:45,144 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:45:45,145 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:45:45 上午(String)
+2022-08-29 00:45:45,158 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:45:45,158 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:45:45,159 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:45:45 上午(String)
+2022-08-29 00:45:45,163 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:45:45,163 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:45:45,163 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:45:45 上午(String)
+2022-08-29 00:45:45,167 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:45:45,167 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:45:45,167 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:45:45 上午(String)
+2022-08-29 00:45:45,170 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:45:45,170 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:45:45,170 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:45:45 上午(String)
+2022-08-29 00:45:45,173 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:46:45,187 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:46:45,188 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:46:45,189 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:46:45,445 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:46:45,445 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:46:45 上午(String)
+2022-08-29 00:46:45,457 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:46:45,457 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:46:45,457 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:46:45 上午(String)
+2022-08-29 00:46:45,460 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:46:45,460 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:46:45,460 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:46:45 上午(String)
+2022-08-29 00:46:45,462 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:46:45,462 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:46:45,462 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:46:45 上午(String)
+2022-08-29 00:46:45,465 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:46:45,465 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:46:45,465 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:46:45 上午(String)
+2022-08-29 00:46:45,467 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:47:45,476 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:47:45,476 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:47:45,477 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:47:45,706 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:47:45,706 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:47:45 上午(String)
+2022-08-29 00:47:45,719 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:47:45,719 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:47:45,719 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:47:45 上午(String)
+2022-08-29 00:47:45,722 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:47:45,722 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:47:45,724 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:47:45 上午(String)
+2022-08-29 00:47:45,726 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:47:45,726 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:47:45,726 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:47:45 上午(String)
+2022-08-29 00:47:45,729 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:47:45,729 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:47:45,730 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:47:45 上午(String)
+2022-08-29 00:47:45,732 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:48:45,742 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:48:45,743 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:48:45,744 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:48:45,936 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:48:45,937 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:48:45 上午(String)
+2022-08-29 00:48:45,950 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:48:45,950 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:48:45,950 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:48:45 上午(String)
+2022-08-29 00:48:45,953 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:48:45,953 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:48:45,954 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:48:45 上午(String)
+2022-08-29 00:48:45,956 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:48:45,956 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:48:45,956 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:48:45 上午(String)
+2022-08-29 00:48:45,959 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:48:45,959 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:48:45,959 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:48:45 上午(String)
+2022-08-29 00:48:45,961 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:49:45,972 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 00:49:45,973 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 00:49:45,974 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 00:49:46,173 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:49:46,173 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:49:46 上午(String)
+2022-08-29 00:49:46,176 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:49:46,176 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`co2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:49:46,176 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:49:46 上午(String)
+2022-08-29 00:49:46,180 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertCo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:49:46,180 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`nh3` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:49:46,180 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - ==> Parameters: 6.3(String), 2022-08-29 00:49:46 上午(String)
+2022-08-29 00:49:46,183 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNh3] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:49:46,183 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`no2` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:49:46,183 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - ==> Parameters: 27.2(String), 2022-08-29 00:49:46 上午(String)
+2022-08-29 00:49:46,186 [Thread-12] DEBUG [com.fusheng.daqijiance.mapper.DQJCMapper.insertNo2] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 00:49:46,186 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==>  Preparing: insert INTO `daqijiancedb`.`tvoc` (`value`, `date`) VALUES (?, ?);
+2022-08-29 00:49:46,186 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - ==> Parameters: 0.0(String), 2022-08-29 00:49:46 上午(String)
+2022-08-29 00:49:46,189 [Thread-12] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertTvoc] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 09:18:54,043 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h29m19s368ms292µs200ns).
+2022-08-29 09:19:31,582 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: SELECT * FROM `daqijiancedb`.`usertoken` LIMIT 1;
+2022-08-29 09:19:31,583 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 09:19:31,584 [Thread-12] DEBUG [c.f.daqijiance.mapper.DQJCMapper.getUserToken] BaseJdbcLogger.java:137 - <==      Total: 1
+2022-08-29 10:10:49,223 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 10:10:49,223 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 10:10:49,238 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 10:10:49,238 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 10:10:49,238 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzQ2MjQ5LCJpYXQiOjE2NjE3MzkwNDl9.hA_ZVoycfGIE-9g3-GvpGYs3qaIpr6CqmbcoR0i0t-Q(String)
+2022-08-29 10:10:49,241 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 11:10:49,641 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 11:10:49,642 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 11:10:49,655 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 11:10:49,655 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 11:10:49,656 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzQ5ODQ5LCJpYXQiOjE2NjE3NDI2NDl9.QzvkCtEEduRMeYYrTOV2prC83YKIzIFUCGtjWsutxto(String)
+2022-08-29 11:10:49,659 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 12:10:49,923 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 12:10:49,924 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 12:10:49,938 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 12:10:49,938 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 12:10:49,938 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzUzNDQ5LCJpYXQiOjE2NjE3NDYyNDl9.m6el4kdGyshi59DyyYUZVufXNq9t6cuf-cSkg4mhCXc(String)
+2022-08-29 12:10:49,941 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 13:10:50,175 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 13:10:50,180 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 13:10:50,197 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 13:10:50,198 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 13:10:50,198 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzU3MDUwLCJpYXQiOjE2NjE3NDk4NTB9.C1W7PLIAAa1ZRrIRul25K9voqHg2jUAyWr9nthOpoUM(String)
+2022-08-29 13:10:50,204 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 14:10:50,529 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 14:10:50,535 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 14:10:50,547 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 14:10:50,547 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 14:10:50,554 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzYwNjUwLCJpYXQiOjE2NjE3NTM0NTB9.B4e5HZrjNK4bj92oS9ZDic64rY53YVCggU07YCc2etw(String)
+2022-08-29 14:10:50,560 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 15:10:50,818 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 15:10:50,822 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 15:10:50,828 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 15:10:50,828 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 15:10:50,828 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzY0MjUwLCJpYXQiOjE2NjE3NTcwNTB9.4oc8HwFhdRbcBljj_1hmlBlk6i3J6XW3-Ltsv0Z_RE4(String)
+2022-08-29 15:10:50,831 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 16:10:51,022 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 16:10:51,023 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 16:10:51,037 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 16:10:51,037 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 16:10:51,038 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzY3ODUwLCJpYXQiOjE2NjE3NjA2NTB9.66Q5l3YhpslTCDncovrvxaP5_FOU7qoWhbIiCNu2_gI(String)
+2022-08-29 16:10:51,041 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 17:10:52,289 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 17:10:52,290 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 17:10:52,294 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 17:10:52,294 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 17:10:52,295 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzcxNDUyLCJpYXQiOjE2NjE3NjQyNTJ9.1159B4cQ5Od215JpG14mGNjQeQYrqns548rAVIHXf5g(String)
+2022-08-29 17:10:52,298 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 18:10:52,541 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 18:10:52,545 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 18:10:52,561 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 18:10:52,561 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 18:10:52,562 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzc1MDUyLCJpYXQiOjE2NjE3Njc4NTJ9.ChUntNjtWTqYpyY0_3UBrotPmwuxbo-8oYAIdEI-lr4(String)
+2022-08-29 18:10:52,564 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 19:10:52,782 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 19:10:52,783 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 19:10:52,796 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 19:10:52,797 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 19:10:52,797 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzc4NjUyLCJpYXQiOjE2NjE3NzE0NTJ9.33Kf4877CJ7wWz_ctd3ymCrld8RFIGANBExKSYT7Mhc(String)
+2022-08-29 19:10:52,800 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 20:10:53,012 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 20:10:53,013 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 20:10:53,019 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 20:10:53,019 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 20:10:53,019 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzgyMjUyLCJpYXQiOjE2NjE3NzUwNTJ9.8pO96loE7FXcd9SSsu4YqmlnO4mjqLMTjWPKwN9dGUw(String)
+2022-08-29 20:10:53,024 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 21:10:53,284 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 21:10:53,287 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 21:10:53,301 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 21:10:53,302 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 21:10:53,302 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzg1ODUzLCJpYXQiOjE2NjE3Nzg2NTN9.-lsNQf6ba2oNMNuNiqjWW7DE-GkZOkyueSMZ8r0sAtk(String)
+2022-08-29 21:10:53,305 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 21:48:11,364 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-29 21:48:11,365 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-08-29 21:48:11,371 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2022-08-29 22:10:53,559 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 22:10:53,560 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 22:10:53,565 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 22:10:53,565 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 22:10:53,565 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzg5NDUzLCJpYXQiOjE2NjE3ODIyNTN9.9fc-VbopN0K36doR9kPMtXQpZo3HK1tNvT3O8p3g1NE(String)
+2022-08-29 22:10:53,569 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 23:10:53,773 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-08-29 23:10:53,774 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-08-29 23:10:53,778 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-08-29 23:10:53,778 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-08-29 23:10:53,779 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjYxNzkzMDUzLCJpYXQiOjE2NjE3ODU4NTN9.agMcAQ-Pgo-GNLL_YiE_Gy-Iig5732bsP0Cz4kzeAqs(String)
+2022-08-29 23:10:53,781 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1

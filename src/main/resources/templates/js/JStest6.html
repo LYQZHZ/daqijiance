@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            color: white;
+            background-color: #5d9cec;
+        }
+    </style>
+</head>
+<body>
+<div id="div1" onclick="alert('🐓')">1</div>
+<div id="div2" onclick="fun()">2</div>
+<div id="div3">3</div>
+<div id="div4">4</div>
+<div id="div5">5</div>
+<div id="div6">6</div>
+<script>
+    let fun = () => {
+        alert("激肽酶");
+    }
+    document.getElementById("div3").onclick = () => {
+        alert("激肽酶");
+    }
+    document.getElementById("div4").addEventListener("click", () => {
+        alert("激肽酶");
+    })
+    document.getElementById("div5").addEventListener("click", function () {
+        alert("激肽酶");
+    })
+    document.getElementById("div6").addEventListener("click", fun)
+</script>
+</body>
+</html>

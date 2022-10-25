@@ -1,0 +1,115 @@
+div {
+    /*border: 1px solid red;*/
+}
+
+.header {
+    text-align: center;
+    background: url(/img/cloud.gif) center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: opacity(0.7);
+}
+
+.content1, .content2 {
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: black 2px solid;
+    border-top: black 2px solid;
+
+
+}
+
+.content1 {
+    height: 20vh;
+    overflow: auto;
+
+}
+
+.content2 {
+    height: 80vh;
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .content1 {
+        border-right: black 2px solid;
+        overflow: hidden;
+        height: 80vh;
+    }
+
+
+}
+
+.contentLeft1 {
+
+    text-align: center;
+}
+
+
+.footer {
+}
+
+.center {
+    height: 100%;
+    border-left: gray 1px solid;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.xtxy {
+    position: relative;
+    margin: auto;
+    font-size: 2rem;
+    word-spacing: 0.2em;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    color: transparent;
+    background-color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.xtxy::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500%;
+    height: 100%;
+    z-index: 5;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 6rem, white 11rem, transparent 11.15rem, transparent 15rem, rgba(255, 255, 255, 0.3) 20rem, transparent 25rem, transparent 27rem, rgba(255, 255, 255, 0.6) 32rem, white 33rem, rgba(255, 255, 255, 0.3) 33.15rem, transparent 38rem, transparent 40rem, rgba(255, 255, 255, 0.3) 45rem, transparent 50rem, transparent 100%);
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    animation: shine 3s infinite linear;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 50% 0;
+    }
+    100% {
+        background-position: -190% 0;
+    }
+}
+
+.button {
+    width: 100%;
+}
+
+.footerContent {
+    margin-top: 10px;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+

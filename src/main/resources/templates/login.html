@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+
+    <title>大气监测系统-邢台学院</title>
+    <!-- 引入字体图标库 -->
+    <link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="/css/login.css" rel="stylesheet">
+    <link href="/static/css/login.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="header" style="float: left;font-size: 50px;color: black">
+    <p style="position: absolute;top: 5%;left: 0px;text-align: center;width: 100%">
+        🏙️大&nbsp;气&nbsp;监&nbsp;测&nbsp;系&nbsp;统&nbsp;V1.0</p>
+    <hr style="position: absolute;top: 15%;left: 0px;text-align: center;width: 100%">
+</div>
+<div class="container">
+
+    <h1>登录</h1>
+    <form action="/login_result" method="post" style="width: 100%;left: 13%;position: relative">
+        <div class="ipt-box" style="text-align: center">
+            <input autocomplete="off" name="user" placeholder="账号" type="text">
+        </div>
+        <div class="ipt-box">
+            <input autocomplete="off" id="password" name="password" placeholder="密码" type="password">
+            <i class="eye fa fa-eye-slash"></i>
+            <div class="beam"></div>
+        </div>
+        <button class="btn-login" type="submit">登录</button>
+    </form>
+
+    <a href="/forget"
+       style="text-decoration: none;left: 12%;bottom:5%;position: absolute">忘记密码</a>
+    <a href="/register"
+       style="text-decoration: none;right: 12%;bottom:5%;position: absolute">点我注册</a>
+</div>
+</body>
+
+</html>
+
+<script src="/js/login.js"></script>
+<script src="/static/js/login.js"></script>

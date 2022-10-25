@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            padding: 2px;
+            border: 2px solid #76daff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .wave {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            background-color: #76daff;
+            border-radius: 50%;
+        }
+
+        .wave::before, .wave::after {
+            content: "";
+            position: absolute;
+            /*260大概最小*/
+            width: 156px;
+            height: 156px;
+            top: 0;
+            left: 50%;
+            background-color: rgba(255, 255, 255, 0.4);
+            border-radius: 45%;
+            transform: translate(-50%, -70%) rotate(0);
+            -webkit-animation: rotate 6s linear infinite;
+            animation: rotate 6s linear infinite;
+            z-index: 1;
+        }
+
+        .wave::after {
+            border-radius: 47%;
+            background-color: rgba(255, 255, 255, 0.9);
+            transform: translate(-50%, -70%) rotate(0);
+            -webkit-animation: rotate 10s linear -5s infinite;
+            animation: rotate 10s linear -5s infinite;
+            z-index: 2;
+        }
+
+        p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+            color: #000;
+            z-index: 10;
+        }
+
+        @-webkit-keyframes rotate {
+            50% {
+                transform: translate(-50%, -73%) rotate(180deg);
+            }
+            100% {
+                transform: translate(-50%, -70%) rotate(360deg);
+            }
+        }
+
+        @keyframes rotate {
+            50% {
+                transform: translate(-50%, -73%) rotate(180deg);
+            }
+            100% {
+                transform: translate(-50%, -70%) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="wave" id="wave"></div>
+    <p id="data">45</p>
+</div>
+
+<script>
+    window.onload = function () {
+        var data1 = document.getElementById("data").innerText;
+        alert(data1);
+        if (100 <= parseInt(data1)) {
+
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 0px;\n" +
+                "            height: 0px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (90 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 26px;\n" +
+                "            height: 26px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (80 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 52px;\n" +
+                "            height: 52px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (70 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 78px;\n" +
+                "            height: 78px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (60 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 104px;\n" +
+                "            height: 104px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (50 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 130px;\n" +
+                "            height: 130px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (40 <= parseInt(data1)) {
+            document.getElementById("wave").setAttribute('style', '');
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {\n" +
+                "            content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 156px;\n" +
+                "            height: 156px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;\n" +
+                "        }\n" +
+                "\n" +
+                "        .wave::after {\n" +
+                "            border-radius: 47%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.9);\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 10s linear -5s infinite;\n" +
+                "            animation: rotate 10s linear -5s infinite;\n" +
+                "            z-index: 2;\n" +
+                "        }";
+            document.head.appendChild(style);
+        } else if (30 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 182px;\n" +
+                "            height: 182px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (20 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 208px;\n" +
+                "            height: 208px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (10 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 234px;\n" +
+                "            height: 234px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        } else if (0 <= parseInt(data1)) {
+            var style = document.createElement('style');
+            style.innerHTML = ".wave::before, .wave::after {content: \"\";\n" +
+                "            position: absolute;\n" +
+                "            /*260大概最小*/\n" +
+                "            width: 260px;\n" +
+                "            height: 260px;\n" +
+                "            top: 0;\n" +
+                "            left: 50%;\n" +
+                "            background-color: rgba(255, 255, 255, 0.4);\n" +
+                "            border-radius: 45%;\n" +
+                "            transform: translate(-50%, -70%) rotate(0);\n" +
+                "            -webkit-animation: rotate 6s linear infinite;\n" +
+                "            animation: rotate 6s linear infinite;\n" +
+                "            z-index: 1;}";
+            document.head.appendChild(style);
+        }
+
+    }
+
+</script>
+</body>
+</html>

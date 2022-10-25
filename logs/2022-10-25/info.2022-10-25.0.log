@@ -1,0 +1,48 @@
+2022-10-25 00:49:53,015 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 00:49:53,022 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 00:49:53,027 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 00:49:53,028 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 00:49:53,028 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjM3MzkyLCJpYXQiOjE2NjY2MzAxOTJ9.1Mdd_QEP-M6qfI-89RruzFN0x3TCghkSpOOG15DrTbw(String)
+2022-10-25 00:49:53,033 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 01:49:53,221 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 01:49:53,222 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 01:49:53,228 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 01:49:53,230 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 01:49:53,230 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjQwOTkyLCJpYXQiOjE2NjY2MzM3OTJ9.woOklUKtiUhPRKjbCbbq0NxjYkY_KATxytC-f4OAdsc(String)
+2022-10-25 01:49:53,235 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 02:49:53,404 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 02:49:53,406 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 02:49:53,412 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 02:49:53,413 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 02:49:53,414 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjQ0NTkyLCJpYXQiOjE2NjY2MzczOTJ9.TBBfF5L8hlRQw4HJDTc7ewCtxmKaMuN2we-EQSSloPQ(String)
+2022-10-25 02:49:53,419 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 03:49:53,598 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 03:49:53,599 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 03:49:53,605 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 03:49:53,605 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 03:49:53,606 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjQ4MTkyLCJpYXQiOjE2NjY2NDA5OTJ9.AyhhrStEDN9h9uAmy7-sJxfKP8xyEUSzQPn8GjZ37N4(String)
+2022-10-25 03:49:53,611 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 04:49:53,822 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 04:49:53,823 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 04:49:53,828 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 04:49:53,829 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 04:49:53,829 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjUxNzkyLCJpYXQiOjE2NjY2NDQ1OTJ9.rQvUbJeINIAEsyuFeSlvHekxUe_uozreJt6bGu0g3hQ(String)
+2022-10-25 04:49:53,834 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 05:49:54,007 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 05:49:54,008 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 05:49:54,012 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 05:49:54,013 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 05:49:54,014 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjU1MzkyLCJpYXQiOjE2NjY2NDgxOTJ9.o5Rc1z8ythG5QmDp1Br1WSqMbSiHtBjamJ4YUDeHN90(String)
+2022-10-25 05:49:54,019 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 06:49:54,192 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 06:49:54,193 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 06:49:54,197 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 06:49:54,198 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 06:49:54,199 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjU4OTkyLCJpYXQiOjE2NjY2NTE3OTJ9.3mCvsi4VSKWdc408kN5hhleR1Yc6U5uoKSbs_b-QRbk(String)
+2022-10-25 06:49:54,203 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 07:49:54,438 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==>  Preparing: DELETE FROM `daqijiancedb`.`usertoken`;
+2022-10-25 07:49:54,439 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - ==> Parameters: 
+2022-10-25 07:49:54,444 [Thread-11] DEBUG [c.f.d.mapper.DQJCMapper.deleteAllUserToken] BaseJdbcLogger.java:137 - <==    Updates: 1
+2022-10-25 07:49:54,446 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==>  Preparing: INSERT INTO `daqijiancedb`.`usertoken` (`token`) VALUES (?);
+2022-10-25 07:49:54,446 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - ==> Parameters: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrbGx1c253OCIsImFwcEtleSI6Ilo1cFJGMjYwIiwidWlkIjo4ODQzNSwiZXhwIjoxNjY2NjYyNTkzLCJpYXQiOjE2NjY2NTUzOTN9.bfxpCbdJTbi6BdLgJpE4e-FtNKEb87Txaw9C79ZTCKU(String)
+2022-10-25 07:49:54,451 [Thread-11] DEBUG [c.fusheng.daqijiance.mapper.DQJCMapper.insertToken] BaseJdbcLogger.java:137 - <==    Updates: 1
