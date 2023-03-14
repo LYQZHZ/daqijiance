@@ -1,0 +1,8 @@
+2023-02-19 17:34:21,152 [http-nio-8283-exec-4] ERROR [c.fusheng.daqijiance.service.impl.DqjcServiceImpl] DqjcServiceImpl.java:55 - 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'uniq_id' in 'order clause'
+### The error may exist in com/fusheng/daqijiance/mapper/Nh3Mapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT *         FROM `nh3`         order by uniq_id desc limit 1;
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'uniq_id' in 'order clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'uniq_id' in 'order clause'

@@ -3,7 +3,7 @@ package com.fusheng.daqijiance.controller;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.fusheng.daqijiance.mapper.DQJCMapper;
-import com.fusheng.daqijiance.model.TuRangShuJu;
+import com.fusheng.daqijiance.model.DaQiShuJu;
 import com.fusheng.daqijiance.model.UserToken;
 import com.fusheng.daqijiance.utils.HttpPostUtils;
 import lombok.extern.slf4j.Slf4j;
@@ -40,10 +40,10 @@ public class GetUserTokenAndSetDataRunner implements CommandLineRunner {
         log.info("执行GetUserTokenAndSetDataRunner");
         // 同步缓存中的通知消息数目
         final long timeInterval = 60000;
-        TuRangShuJu tuRangShuJu = new TuRangShuJu();
+        DaQiShuJu daQiShuJu = new DaQiShuJu();
 
         SimpleDateFormat sdf = new SimpleDateFormat();// 格式化时间
-        sdf.applyPattern("yyyy-MM-dd HH:mm:ss a");// a为am/pm的标记
+        sdf.applyPattern("yyyy-MM-dd HH:mm:ss");// a为am/pm的标记
 
         Runnable runnable = new Runnable() {
             @Override
@@ -53,44 +53,29 @@ public class GetUserTokenAndSetDataRunner implements CommandLineRunner {
                     String json2 = "{\n" +
                             "    \"devDatapoints\": [\n" +
                             "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
+                            "            \"deviceNo\": \"01201720101200011539\",\n" +
                             "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283769\n" +
+                            "            \"dataPointId\": 8504680\n" +
                             "        },\n" +
                             "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
+                            "            \"deviceNo\": \"01201720101200011539\",\n" +
                             "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283770\n" +
+                            "            \"dataPointId\": 8648025\n" +
                             "        },\n" +
                             "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
+                            "            \"deviceNo\": \"01201720101200011539\",\n" +
                             "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283771\n" +
+                            "            \"dataPointId\": 8648026\n" +
                             "        },\n" +
                             "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
+                            "            \"deviceNo\": \"01201720101200011539\",\n" +
                             "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283772\n" +
+                            "            \"dataPointId\": 11787557\n" +
                             "        },\n" +
                             "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
+                            "            \"deviceNo\": \"01201720101200011539\",\n" +
                             "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283773\n" +
-                            "        },\n" +
-                            "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
-                            "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283774\n" +
-                            "        },\n" +
-                            "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
-                            "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283776\n" +
-                            "        },\n" +
-                            "        {\n" +
-                            "            \"deviceNo\": \"01201721042200004254\",\n" +
-                            "            \"slaveIndex\": \"1\",\n" +
-                            "            \"dataPointId\": 5283777\n" +
+                            "            \"dataPointId\": 11787558\n" +
                             "        }\n" +
                             "    ]\n" +
                             "}";
@@ -122,20 +107,27 @@ public class GetUserTokenAndSetDataRunner implements CommandLineRunner {
                             String deviceNo = dataList1.getJSONObject(i).getString("deviceNo");
                             String value = dataList1.getJSONObject(i).getString("value");
                             Date nowDate = new Date();// 获取当前时间
-                            tuRangShuJu.setDataPointId(dataPointId);
-                            tuRangShuJu.setDeviceNo(deviceNo);
-                            tuRangShuJu.setValue(value);
-                            tuRangShuJu.setDate(sdf.format(nowDate));
+                            daQiShuJu.setDataPointId(dataPointId);
+                            daQiShuJu.setDeviceNo(deviceNo);
+                            daQiShuJu.setValue(Double.valueOf(value));
+                            daQiShuJu.setDate(sdf.format(nowDate));
+
+
                             if (i == 0) {
-                                dqjcMapper.insertCo(tuRangShuJu);
+
+                                dqjcMapper.insertNh3(daQiShuJu);
                             } else if (i == 1) {
-                                dqjcMapper.insertCo2(tuRangShuJu);
+
+                                dqjcMapper.insertNo2(daQiShuJu);
                             } else if (i == 2) {
-                                dqjcMapper.insertNh3(tuRangShuJu);
+
+                                dqjcMapper.insertCo(daQiShuJu);
                             } else if (i == 3) {
-                                dqjcMapper.insertNo2(tuRangShuJu);
+
+                                dqjcMapper.insertCo2(daQiShuJu);
                             } else if (i == 4) {
-                                dqjcMapper.insertTvoc(tuRangShuJu);
+
+                                dqjcMapper.insertTvoc(daQiShuJu);
                             }
 
                             System.out.println(dataPointId);
@@ -143,6 +135,7 @@ public class GetUserTokenAndSetDataRunner implements CommandLineRunner {
                             System.out.println(value);
                             System.out.println(sdf.format(nowDate));
                         }
+
                     }
                     // ------- ends here
                     try {

@@ -2,11 +2,15 @@ package com.fusheng.daqijiance.controller;
 
 
 import com.fusheng.daqijiance.mapper.DQJCMapper;
+import com.fusheng.daqijiance.model.ResponseData;
 import com.fusheng.daqijiance.model.User;
+import com.fusheng.daqijiance.service.*;
 import com.fusheng.daqijiance.utils.CheckEmail;
 import com.fusheng.daqijiance.utils.CheckPassword;
 import com.fusheng.daqijiance.utils.md5Util;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.ExtendedModelMap;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -21,11 +25,24 @@ import javax.servlet.http.HttpSession;
  * @Author: 李岩青
  * @Date: 2022年8月1日
  */
+@CrossOrigin
 @org.springframework.stereotype.Controller
 @RequestMapping(value = "/dqjc")
 public class DQJCController {
     @Resource
     private DQJCMapper dqjcMapper;
+    @Autowired
+    private DqjcService dqjcService;
+    @Autowired
+    private Nh3Service nh3Service;
+    @Autowired
+    private No2Service no2Service;
+    @Autowired
+    private Co2Service co2Service;
+    @Autowired
+    private CoService coService;
+    @Autowired
+    private TvocService tvocService;
 
     /*@RequestMapping("/data")
     public String getData(ExtendedModelMap model, HttpSession httpSession) {
@@ -266,4 +283,94 @@ public class DQJCController {
     public String testForPost(ExtendedModelMap model, HttpSession httpSession) {
         return "欢迎使用滴滴出行！POST";
     }
+
+
+    @RequestMapping(value = "/getLastData", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastData() {
+        ResponseData responseData = dqjcService.getAllDQSJLastOne();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastSevenNH3Data", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastSevenNH3Data() {
+//        TODO 返回NH3气体参数的最近七天的代表数据
+        ResponseData responseData = nh3Service.getNh3SevenDay();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastSevenCO2Data", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastSevenCO2Data() {
+//        TODO 返回CO2气体参数的最近七天的代表数据
+        ResponseData responseData = co2Service.getCo2SevenDay();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastSevenNO2Data", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastSevenNO2Data() {
+//        TODO 返回NO2气体参数的最近七天的代表数据
+        ResponseData responseData = no2Service.getNo2SevenDay();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastSevenCOData", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastSevenCOData() {
+//        TODO 返回CO气体参数的最近七天的代表数据
+        ResponseData responseData = coService.getCoSevenDay();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastSevenTVOCData", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastSevenTVOCData() {
+//        TODO 返回TVOC气体参数的最近七天的代表数据
+        ResponseData responseData = tvocService.getTvocSevenDay();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastFiveNH3Data", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastFiveNH3Data() {
+//        TODO 返回NH3气体参数的最近五个小时的代表数据
+        ResponseData responseData = nh3Service.getNh3Five();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastFiveCO2Data", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastFiveCO2Data() {
+//        TODO 返回CO2气体参数的最近五个小时的代表数据
+        ResponseData responseData = co2Service.getCo2Five();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastFiveNO2Data", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastFiveNO2Data() {
+//        TODO 返回NO2气体参数的最近五个小时的代表数据
+        ResponseData responseData = no2Service.getNo2Five();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastFiveCOData", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastFiveCOData() {
+//        TODO 返回CO气体参数的最近五个小时的代表数据
+        ResponseData responseData = coService.getCoFive();
+        return responseData;
+    }
+
+    @RequestMapping(value = "/getLastFiveTVOCData", method = RequestMethod.POST)
+    @ResponseBody
+    public ResponseData getLastFiveTVOCData() {
+//        TODO 返回TVOC气体参数的最近五个小时的代表数据
+        ResponseData responseData = tvocService.getTvocFive();
+        return responseData;
+    }
+
+
 }

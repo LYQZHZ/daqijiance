@@ -1,7 +1,7 @@
 package com.fusheng.daqijiance.mapper;
 
 
-import com.fusheng.daqijiance.model.TuRangShuJu;
+import com.fusheng.daqijiance.model.DaQiShuJu;
 import com.fusheng.daqijiance.model.User;
 import com.fusheng.daqijiance.model.UserToken;
 
@@ -13,15 +13,15 @@ public interface DQJCMapper {
 
     UserToken getUserToken();
 
-    int insertCo(TuRangShuJu tuRangShuJu);
+    int insertCo(DaQiShuJu daQiShuJu);
 
-    int insertCo2(TuRangShuJu tuRangShuJu);
+    int insertCo2(DaQiShuJu daQiShuJu);
 
-    int insertNh3(TuRangShuJu tuRangShuJu);
+    int insertNh3(DaQiShuJu daQiShuJu);
 
-    int insertNo2(TuRangShuJu tuRangShuJu);
+    int insertNo2(DaQiShuJu daQiShuJu);
 
-    int insertTvoc(TuRangShuJu tuRangShuJu);
+    int insertTvoc(DaQiShuJu daQiShuJu);
 
     int insertUser(User user);
 

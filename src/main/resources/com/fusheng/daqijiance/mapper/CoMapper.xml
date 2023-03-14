@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fusheng.daqijiance.mapper.CoMapper">
+    <select id="getCoLastOne" resultType="com.fusheng.daqijiance.model.DaQiShuJu">
+        SELECT *
+        FROM `co`
+        order by id desc limit 1;
+    </select>
+
+    <select id="getCoLastSevenDay" resultType="com.fusheng.daqijiance.model.DaQiShuJu">
+        select *
+        from co
+        group by DATE_FORMAT(date, '%Y-%m-%d 00:00:00')
+        order by id desc limit 7;
+    </select>
+
+    <select id="getCoLastFive" resultType="com.fusheng.daqijiance.model.DaQiShuJu">
+        select *
+        from co
+        group by DATE_FORMAT(date, '%Y-%m-%d %H:00:00')
+        order by id desc limit 5;
+    </select>
+</mapper>
