@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fusheng.daqijiance.mapper.CountyMapper">
+
+    <resultMap id="BaseResultMap" type="com.fusheng.daqijiance.model.County">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="countyName" column="county_name" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,county_name
+    </sql>
+</mapper>
